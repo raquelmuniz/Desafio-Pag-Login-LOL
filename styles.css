@@ -105,7 +105,12 @@ main{
     height: 5vh;
     background-color: #FF002E;
     border: none;
-    display: none;
+    cursor: pointer;
+}
+
+.entrar:disabled{
+    background-color: #ff002f48;
+    cursor: auto;
 }
 
 .entrar img{
